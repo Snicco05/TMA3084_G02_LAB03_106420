@@ -24,7 +24,7 @@ class FlowerMenuScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Flower Shop Menu'),
-        backgroundColor: Colors.purpleAccent,
+        backgroundColor: Colors.pinkAccent,
       ),
       body: const SafeArea(
         child: Column(
@@ -49,7 +49,7 @@ class FlowerCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       elevation: 5,
-      color: Colors.pink,
+      color: Colors.purpleAccent,
       margin: const EdgeInsets.all(12),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
       child: Padding(
